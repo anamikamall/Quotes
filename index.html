@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Dynamic Quotes</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="./favicon.png" />
+  </head>
+  <body>
+    <!-- <div id="quotes"></div>
+    <div id="author"></div>
+    <button id="newQ">New Quote</button>
+    <button id="tweetMe">Tweet</button> -->
+
+    <div class="container">
+      <div class="inner" data-aos="zoom-in">
+        <div class="box">
+          <p class="number">
+            <img
+              src="./twitter png.png"
+              alt="tweetMe"
+              title="tweetMe"
+              id="tweetMe"
+            />
+          </p>
+          <div class="text">
+            <i class="start-quote fas fa-quote-left"></i>
+            <p id="quotes" class="quotes"></p>
+            <p id="author" class="author"></p>
+          </div>
+          <label class="button">
+            <p id="newQ">New Quotes</p>
+          </label>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </body>
+  <script src="./script.js"></script>
+</html>
